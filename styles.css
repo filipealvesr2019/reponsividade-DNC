@@ -21,7 +21,7 @@ button{
     background-color: #F84646;
     color: #fff;
     border: 0;
-    width: 25vw;
+    width: 14vw;
     font-size: 1rem;
     padding: 8px 24px;
     border-radius: 8px;
@@ -37,4 +37,22 @@ button{
     position: relative;
     width: 500px;
     top: calc(50% - 10%) ;
+}
+
+.container{
+    padding: 8rem 2rem;
+    text-align: center;
+}
+
+.contact-title{
+    margin-top: 8px;
+
+}
+
+.container > p{
+    margin-top: 1.5rem;
+}
+
+.container > button{
+    margin-top: 2rem;
 }
