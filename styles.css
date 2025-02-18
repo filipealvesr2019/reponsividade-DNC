@@ -31,7 +31,14 @@ button{
 #presentation-container{
  
     padding: 40px 120px;
-    height: 50vh;
+    height: 100vh;
+    background-image: url('./assets/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.h1{
+    margin-bottom: 1rem;
 }
 
 #presentation{
