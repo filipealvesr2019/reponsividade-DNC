@@ -35,6 +35,9 @@ button{
     background-image: url('./assets/fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     
 }
 .background-gradient{
@@ -45,9 +48,7 @@ button{
 }
 
 #presentation{
-    position: relative;
     width: 500px;
-    top: calc(50% - 10%) ;
 }
 
 .container{
@@ -72,4 +73,9 @@ button{
 .container > button:hover{
     opacity: 0.8;
     transform: scale(1.1);
+}
+
+.background-red{
+    background-color: #F84646;
+    color: #fff;
 }
