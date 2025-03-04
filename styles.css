@@ -51,6 +51,16 @@ button{
     width: 500px;
 }
 
+
+#qualities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+#qualities > img {
+    margin: 0 2.5rem;
+}
 .container{
     padding: 5rem 2rem;
     text-align: center;
