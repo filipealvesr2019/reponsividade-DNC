@@ -89,3 +89,16 @@ button{
     background-color: #F84646;
     color: #fff;
 }
+
+.article-container{
+    display: flex;
+}
+.article-container:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.article-details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
