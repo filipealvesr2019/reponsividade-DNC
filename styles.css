@@ -93,7 +93,7 @@ button{
 .article-container{
     display: flex;
 }
-.article-container:nth-child(odd){
+.article-container:nth-child(even){
     flex-direction: row-reverse;
 }
 .article-details{
