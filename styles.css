@@ -92,6 +92,7 @@ button{
 
 .article-container{
     display: flex;
+    flex-direction: row;
 }
 .article-container:nth-child(even){
     flex-direction: row-reverse;
@@ -101,4 +102,17 @@ button{
     flex-direction: column;
     text-align: left;
     align-items: flex-start;
+    margin: 0 2.5rem 0 0;
+}
+
+.article-details:nth-child(even){
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    margin: 0 0 0 2.5rem;
+}
+
+.article-container:nth-child(even) > .article-details{
+    margin: 0 0 0 2.5rem;
 }
