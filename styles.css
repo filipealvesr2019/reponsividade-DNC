@@ -130,3 +130,8 @@ button{
 .footer-list > ul > li{
    list-style: none;
 }
+
+.footer-list-title{
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
