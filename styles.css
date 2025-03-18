@@ -129,9 +129,14 @@ button{
 
 .footer-list > ul > li{
    list-style: none;
+   margin-bottom: 1rem;
 }
+.footer-list > ul > li:last-child{
+    margin-bottom: 0;
+ }
 
-.footer-list-title{
+ .footer-list > ul > li:first-child{
     margin-bottom: 1.5rem;
     font-weight: 700;
-}
+ }
+ 
