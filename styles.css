@@ -140,3 +140,7 @@ button{
     font-weight: 700;
  }
  
+ .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ }
