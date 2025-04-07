@@ -156,3 +156,10 @@ button{
  .grid-p{
     margin-bottom: 6rem;
  }
+
+
+.grid-container-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
