@@ -184,13 +184,12 @@ button{
     grid-area: 3 / 3;
 }
 
-
 .company-7{
-    grid-area: 3 / 1;
+    grid-area: 2 / 4;
 }
 .company-8{
-    grid-area: 2 / 2;
+    grid-area: 3 / 4;
 }
 .company-9{
-    grid-area: 3 / 2;
+    grid-area: 3 / 5;
 }
