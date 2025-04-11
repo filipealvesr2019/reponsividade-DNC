@@ -173,14 +173,15 @@ button{
     grid-area: 2 / 2;
 }
 .company-3{
-    grid-area: 3 / 2;
+    grid-area: 2 / 3;
 }
 
 .company-4{
     grid-area: 3 / 1;
 }
 .company-5{
-    grid-area: 2 / 3;
+    grid-area: 3 / 2;
+
 }
 .company-6{
     grid-area: 3 / 3;
