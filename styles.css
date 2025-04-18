@@ -196,3 +196,13 @@ button{
 .company-9{
     grid-area: 3 / 5;
 }
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 4rem;
+     
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
