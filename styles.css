@@ -223,4 +223,12 @@ button{
     .grid-container{
         grid-template-columns: 1fr;
      }
+     #qualities{
+        flex-direction: column;
+    }
+
+    #qualities > img{
+        transform: rotate(90deg);
+        margin: 2.5rem 0;
+    }
 }
