@@ -239,16 +239,18 @@ button{
     
     .article-container:nth-child(even){
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
     .article-details {
         text-align: center;
         align-items: center;
+        justify-content: center;
+        margin:  2rem 0 0 ;
 
     }
     button{
-        width: 30vw;
+        width: 60vw;
         display: flex;
         justify-content: center;
         margin-top: 2rem;
