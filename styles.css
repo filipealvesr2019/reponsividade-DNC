@@ -110,6 +110,12 @@ button{
     margin: 0 2.5rem 0 0;
     justify-content: space-between;
 }
+
+.article-details-inner-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
 .article-details > button{
    font-size: 1rem;
 }
