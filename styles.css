@@ -114,7 +114,7 @@ button{
 .article-details-inner-section{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    /* gap: 3rem; */
 }
 .article-details > button{
    font-size: 1rem;
