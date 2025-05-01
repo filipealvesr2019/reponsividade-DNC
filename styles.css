@@ -221,6 +221,10 @@ button{
         grid-template-columns: repeat(2, 1fr);
      }
      
+     .img{
+        width: 50vw;
+        height: 40vh;
+     }
 
 }
 /* pra mobile */
@@ -268,6 +272,13 @@ button{
         justify-content: center;
         margin-top: 2rem;
         margin-bottom: 2rem;
+    }
+
+    #presentation-container{
+ 
+        justify-content: center;
+        align-items: center;
+        
     }
     
 }
