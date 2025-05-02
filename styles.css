@@ -217,13 +217,17 @@ button{
     h2{
         font-size: 2rem;
     }
+    .p{
+        font-size: 1.1rem;
+    }
     .grid-container{
         grid-template-columns: repeat(2, 1fr);
      }
      
      .img{
-        width: 50vw;
-        height: 40vh;
+        width: 45vw;
+        height: 45vh;
+        object-fit: cover;
      }
 
 }
