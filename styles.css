@@ -284,5 +284,21 @@ button{
         align-items: center;
         
     }
+
+    .article-details-inner-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    .p{
+        width: 90vw;
+      
+    
+    }
 }
