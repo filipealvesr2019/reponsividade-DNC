@@ -50,6 +50,7 @@ button{
     justify-content: flex-start;
     align-items: center;
     
+    
 }
 .background-gradient{
     background: linear-gradient(180deg, #fff, #d9d9d9);
@@ -100,9 +101,7 @@ button{
 .background-red{
     background-color: #F84646;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
+   
 }
 
 
@@ -238,7 +237,11 @@ button{
         height: 45vh;
         object-fit: cover;
      }
-
+  
+     .footer-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 /* pra mobile */
 
@@ -309,5 +312,10 @@ button{
         width: 90vw;
       
     
+    }
+    
+    .footer-list{
+        display: flex;
+        flex-direction: column;
     }
 }
