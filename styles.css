@@ -186,6 +186,11 @@ button{
     background-color: #F4F5F7;
 }
 
+.grid-container-bg{
+        background-color: #F4F5F7;
+
+}
+
 .company-1{
     grid-area: 1 / 3;
    
