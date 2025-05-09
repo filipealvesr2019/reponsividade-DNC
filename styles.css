@@ -242,6 +242,46 @@ button{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .grid-container-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    background-color: #F4F5F7;
+}
+
+
+.company-1{
+    grid-area: auto;
+   
+}
+.company-2{
+    grid-area: auto;
+}
+.company-3{
+    grid-area: auto;
+}
+
+.company-4{
+    grid-area: auto;
+}
+.company-5{
+    grid-area: auto;
+
+}
+.company-6{
+    grid-area: auto;
+}
+
+.company-7{
+    grid-area: auto;
+}
+.company-8{
+    grid-area: auto;
+}
+.company-9{
+    grid-area: auto;
+}
 }
 /* pra mobile */
 
@@ -304,7 +344,45 @@ button{
     }
     
     
-    
+    .grid-container-companies{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: #F4F5F7;
+}
+
+
+.company-1{
+    grid-area: auto;
+   
+}
+.company-2{
+    grid-area: auto;
+}
+.company-3{
+    grid-area: auto;
+}
+
+.company-4{
+    grid-area: auto;
+}
+.company-5{
+    grid-area: auto;
+
+}
+.company-6{
+    grid-area: auto;
+}
+
+.company-7{
+    grid-area: auto;
+}
+.company-8{
+    grid-area: auto;
+}
+.company-9{
+    grid-area: auto;
+}
 }
 
 @media only screen and (max-width: 600px){
